@@ -48,7 +48,7 @@ void searchKbClick (lv_event_t* e) {
 
             switchDir(path);
             break;
-        
+
         case LV_EVENT_LONG_PRESSED:
             btn_id = lv_keyboard_get_selected_btn(target);
             if (!strcmp(lv_keyboard_get_btn_text(target,btn_id),LV_SYMBOL_BACKSPACE))
